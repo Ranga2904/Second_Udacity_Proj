@@ -24,12 +24,14 @@ a json interface to consume the endpoint. Effectively this allows 3rd parties to
 ##### Below are snapshots of log.py script running and output
 ![Logs.py script and output](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_5_running_logspy.png)
 ![Logs.py script and output](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_5_running_logspy_part_2.png)
-#### Step 6: consume deployed model using swagger to create http: interface that illustrates API methods and responses for the model.
+#### Step 6: consume deployed model using swagger to create http: interface that illustrates API methods and responses for the model. 
 ##### Below are snapshots of swagger running on the localhost
-![Swagger interface](Screenshot_6_swagger_localhost_methods_responses.png)
-![Swagger interface](Screenshot_6_swagger_localhost_methods_responses_part_2.png)
+![Swagger interface](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_6_swagger_localhost_methods_responses.png)
+![Swagger interface](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_6_swagger_localhost_methods_responses_part_2.png)
 ### Step 7: update model endpoint.py script with the relevant URI and authentication. 
-#### Proof
+#### Proof of this is seen when endpoint.py is run with resulting output being 'yes' or 'no'
+![Swagger interface](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_7_endpoint_script_out_showing_yes_no.png)
+### Step 8: updated the automl pipeline creation notebook with relevant keys, URI, dataset etc. Running this script creates, publishes, and consumes final pipeline
 
 ## Screen Recording - below is my description of the modeling, deployment, and consume efforts involved in creating an accessible model that predicts banking purchase 
 behaviors.
