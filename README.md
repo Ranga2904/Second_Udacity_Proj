@@ -36,10 +36,17 @@ a json interface to consume the endpoint. Effectively this allows 3rd parties to
 
 ### Step 7: update model endpoint.py script with the relevant URI and authentication. 
 #### Proof of this is seen when endpoint.py is run with resulting output being 'yes' or 'no'
-![Swagger interface](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_7_endpoint_script_out_showing_yes_no.png)
+![endpoint.py](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_7_endpoint_script_out_showing_yes_no.png)
 
 ### Step 8: updated the automl pipeline creation notebook with relevant keys, URI, dataset etc. Running this script creates, publishes, and consumes final pipeline
-### Snapshots below show the running pipeline, endpoint 
+### Snapshots below show the running pipeline, pipeline endpoint, ACTIVE published pipeline with REST endpoint, and Jupyter Notebook with RunDetailswidget
+![Running pipeline](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_8_running_pipelie.png)
+![Pipeline endpoint](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_9_pipeline_endpoint.png)
+![Active pipeline with REST endpoint](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_10_dataset_automlmodule_Publ_PL_overview.png)
+![Jupyter Notebook](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_11_RunDetails_StepRuns.png)
+![ML Studio showing scheduled runs](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_12_ML_Studio_showing_Runs.png)
+
+
 ## Screen Recording - below is my description of the modeling, deployment, and consume efforts involved in creating an accessible model that predicts banking purchase 
 behaviors.
 https://www.youtube.com/watch?v=FcC4ktLLKIk
