@@ -9,8 +9,8 @@ a json interface to consume the endpoint. Effectively this allows 3rd parties to
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
-#### Step 1: upload dataset, compile and run AutoML experiment. Below are snapshots of the registered dataset and the completed AutoML run. 
 
+#### Step 1: upload dataset, compile and run AutoML experiment. Below are snapshots of the registered dataset and the completed AutoML run. 
 ##### Below are snapshots of the dataset in register and completed experiment.
 ![Dataset in register](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_1_Registered_Datasets_Showing_Bankmktg.png)
 ![Completed experiment](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_2_Completed_Run.png)
@@ -34,12 +34,12 @@ a json interface to consume the endpoint. Effectively this allows 3rd parties to
 ![Swagger interface](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_6_swagger_localhost_methods_responses.png)
 ![Swagger interface](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_6_swagger_localhost_methods_responses_part_2.png)
 
-### Step 7: update model endpoint.py script with the relevant URI and authentication. 
-#### Proof of this is seen when endpoint.py is run with resulting output being 'yes' or 'no'
+#### Step 7: update model endpoint.py script with the relevant URI and authentication. 
+##### Proof of this is seen when endpoint.py is run with resulting output being 'yes' or 'no'
 ![endpoint.py](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_7_endpoint_script_out_showing_yes_no.png)
 
-### Step 8: updated the automl pipeline creation notebook with relevant keys, URI, dataset etc. Running this script creates, publishes, and consumes final pipeline
-### Snapshots below show the running pipeline, pipeline endpoint, ACTIVE published pipeline with REST endpoint, and Jupyter Notebook with RunDetailswidget
+#### Step 8: updated the automl pipeline creation notebook with relevant keys, URI, dataset etc. Running this script creates, publishes, and consumes final pipeline
+##### Snapshots below show the running pipeline, pipeline endpoint, ACTIVE published pipeline with REST endpoint, and Jupyter Notebook with RunDetailswidget
 ![Running pipeline](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_8_running_pipelie.png)
 ![Pipeline endpoint](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_9_pipeline_endpoint.png)
 ![Active pipeline with REST endpoint](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_10_dataset_automlmodule_Publ_PL_overview.png)
@@ -47,8 +47,7 @@ a json interface to consume the endpoint. Effectively this allows 3rd parties to
 ![ML Studio showing scheduled runs](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_12_ML_Studio_showing_Runs.png)
 
 
-## Screen Recording - below is my description of the modeling, deployment, and consume efforts involved in creating an accessible model that predicts banking purchase 
-behaviors.
+## Screen Recording - below is my description of the modeling, deployment, and consume efforts involved in creating an accessible model that predicts banking purchase behaviors.
 https://www.youtube.com/watch?v=FcC4ktLLKIk
 
 
