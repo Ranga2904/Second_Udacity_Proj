@@ -3,7 +3,7 @@
 
 ## Overview
 This project creates an AutoML model whose best performer is deployed to a HTTP endpoint for public consumption. Consumption is enabled through swagger, which uses 
-a json interface to consume the endpoint. Effectively this allows 3rd parties to use an application produced within Azure.
+a json interface to consume the endpoint. Effectively this allows 3rd parties to use a machine learning application produced within Azure.
 
 ## Architectural Diagram
 This architectural diagram shows the flow from starting dataset to final completed pipeline. 
@@ -25,7 +25,7 @@ This architectural diagram shows the flow from starting dataset to final complet
 ###### Snapshot of best model
 ![Best model](https://github.com/Ranga2904/Second_Udacity_Proj/blob/main/Screenshot_3_Best_Model.png)
 
-#### Step 3: deploy the best performing model.
+#### Step 3: deploy the best performing model, Voting Ensemble Classifier.
 #### Step 4: enable application insights, which allows us to see how the deployment is functioning in terms of metrics like response time
 
 ###### Snapshot of Application Insights enabled
